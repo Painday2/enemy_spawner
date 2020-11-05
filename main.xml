@@ -31,6 +31,8 @@
 			<value_node value="levels/instances/unique/sub_sewer_sidespawn/world/world"/>
 			<value_node value="packages/lvl_mad"/>
 			<value_node value="packages/dlcs/vit/job_vit"/>
+			<value_node value="packages/job_bex"/>
+			<value_node value="packages/narr_hvh"/>
 		</packages>
 		<script_data_mods directory="scriptdata">
 			<mod replacement="objectives.objective" replacement_type="custom_xml" target_ext="objective" target_path="gamedata/objectives">
