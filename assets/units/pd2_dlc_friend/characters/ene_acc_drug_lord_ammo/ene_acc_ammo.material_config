@@ -1,0 +1,7 @@
+<materials version="3">
+	<material name="mtr_body" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP:RL_COPS:SKINNED_3WEIGHTS" version="2">
+		<bump_normal_texture 	file="units/pd2_dlc_friend/characters/ene_drug_lord_boss/ene_drug_lord_boss_nm"/>
+		<diffuse_texture 		file="units/pd2_dlc_friend/characters/ene_drug_lord_boss/ene_drug_lord_boss_df"/>
+	</material>
+
+</materials>

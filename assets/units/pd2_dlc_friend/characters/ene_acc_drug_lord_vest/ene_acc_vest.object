@@ -1,0 +1,122 @@
+<?xml version="1.0"?>
+<dynamic_object>
+	<diesel materials="units/pd2_dlc_friend/characters/ene_acc_drug_lord_vest/ene_acc_vest" orientation_object="root" />
+	
+	<bodies>
+		<body name="dynamic_body_root" enabled="true" template="dynamic" pushed_by_mover="true" lin_damping="0.9" ang_damping="2">
+			<object name="root" />
+			<object name="c_sphere_1" collision_type="sphere" mass="5"/>
+		</body>
+		<body name="dynamic_body_01" enabled="true" template="dynamic" pushed_by_mover="true" lin_damping="0.9" ang_damping="2">
+			<object name="a_vest_1" />
+			<object name="c_convex_1" collision_type="convex" mass="5"/>
+		</body>
+		<body name="dynamic_body_02" enabled="true" template="dynamic" pushed_by_mover="true" lin_damping="0.9" ang_damping="2">
+			<object name="a_vest_2" />
+			<object name="c_convex_2" collision_type="convex" mass="5"/>
+		</body>
+		<body name="dynamic_body_03" enabled="true" template="dynamic" pushed_by_mover="true" lin_damping="0.9" ang_damping="2">
+			<object name="a_vest_3" />
+			<object name="c_convex_3" collision_type="convex" mass="5"/>
+		</body>
+		<body name="dynamic_body_04" enabled="true" template="dynamic" pushed_by_mover="true" lin_damping="0.9" ang_damping="2">
+			<object name="a_vest_4" />
+			<object name="c_convex_4" collision_type="convex" mass="5"/>
+		</body>
+		<body name="dynamic_body_05" enabled="true" template="dynamic" pushed_by_mover="true" lin_damping="0.9" ang_damping="2">
+			<object name="a_vest_5" />
+			<object name="c_convex_5" collision_type="convex" mass="5"/>
+		</body>
+		<body name="dynamic_body_06" enabled="true" template="dynamic" pushed_by_mover="true" lin_damping="0.9" ang_damping="2">
+			<object name="a_vest_6" />
+			<object name="c_convex_6" collision_type="convex" mass="5"/>
+		</body>
+		<body name="dynamic_body_07" enabled="true" template="dynamic" pushed_by_mover="true" lin_damping="0.9" ang_damping="2">
+			<object name="a_vest_7" />
+			<object name="c_convex_7" collision_type="convex" mass="5"/>
+		</body>
+		<body name="dynamic_body_08" enabled="true" template="dynamic" pushed_by_mover="true" lin_damping="0.9" ang_damping="3">
+			<object name="a_vest_8" />
+			<object name="c_convex_8" collision_type="convex" mass="5"/>
+		</body>
+	</bodies>
+
+	<constraints>
+<!-- 	  <constraint name="chain_01" enabled="true" type="ragdoll">
+	    <param body_a="dynamic_body_root" body_b="dynamic_body_01"/>
+	    <param pivot="position:root"/>
+	    <param twist_axis="yaxis:root" twist_min="0" twist_max="0" twist_freedom="0"/>
+	    <param plane_axis="xaxis:root"/>
+	    <param cone_y="0" cone_z="0" cone_freedom="0"/>
+	    <param damping="1" spring_constant="1000" min_restitution="0"/>
+	  </constraint>
+	  <constraint name="chain_02" enabled="true" type="ragdoll">
+	    <param body_a="dynamic_body_root" body_b="dynamic_body_02"/>
+	    <param pivot="position:root"/>
+	    <param twist_axis="yaxis:root" twist_min="0" twist_max="0" twist_freedom="0"/>
+	    <param plane_axis="xaxis:root"/>
+	    <param cone_y="0" cone_z="0" cone_freedom="0"/>
+	    <param damping="1" spring_constant="1000" min_restitution="0"/>
+	  </constraint> -->
+	  <constraint name="chain_03" enabled="true" type="ragdoll">
+	    <param body_a="dynamic_body_03" body_b="dynamic_body_02"/>
+	    <param pivot="position:a_vest_3"/>
+	    <param twist_axis="yaxis:a_vest_3" twist_min="0" twist_max="35" twist_freedom="20"/>
+	    <param plane_axis="xaxis:a_vest_3"/>
+	    <param cone_y="20" cone_z="20" cone_freedom="20"/>
+	    <param damping="1" spring_constant="1000" min_restitution="0"/>
+	  </constraint>
+	  <constraint name="chain_04" enabled="true" type="ragdoll">
+	    <param body_a="dynamic_body_01" body_b="dynamic_body_04"/>
+	    <param pivot="position:a_vest_4"/>
+	    <param twist_axis="yaxis:a_vest_4" twist_min="0" twist_max="35" twist_freedom="20"/>
+	    <param plane_axis="xaxis:a_vest_4"/>
+	    <param cone_y="20" cone_z="20" cone_freedom="20"/>
+	    <param damping="1" spring_constant="1000" min_restitution="0"/>
+	  </constraint>
+	  <constraint name="chain_05" enabled="true" type="ragdoll">
+	    <param body_a="dynamic_body_04" body_b="dynamic_body_05"/>
+	    <param pivot="position:a_vest_5"/>
+	    <param twist_axis="yaxis:a_vest_5" twist_min="0" twist_max="35" twist_freedom="20"/>
+	    <param plane_axis="xaxis:a_vest_5"/>
+	    <param cone_y="20" cone_z="20" cone_freedom="20"/>
+	    <param damping="1" spring_constant="1000" min_restitution="0"/>
+	  </constraint>
+	  <constraint name="chain_06" enabled="true" type="ragdoll">
+	    <param body_a="dynamic_body_03" body_b="dynamic_body_06"/>
+	    <param pivot="position:a_vest_6"/>
+	    <param twist_axis="yaxis:a_vest_6" twist_min="0" twist_max="35" twist_freedom="20"/>
+	    <param plane_axis="xaxis:a_vest_6"/>
+	    <param cone_y="20" cone_z="20" cone_freedom="20"/>
+	    <param damping="1" spring_constant="1000" min_restitution="0"/>
+	  </constraint>
+	  <constraint name="chain_07" enabled="true" type="ragdoll">
+	    <param body_a="dynamic_body_04" body_b="dynamic_body_07"/>
+	    <param pivot="position:a_vest_7"/>
+	    <param twist_axis="yaxis:a_vest_7" twist_min="0" twist_max="35" twist_freedom="20"/>
+	    <param plane_axis="xaxis:a_vest_7"/>
+	    <param cone_y="20" cone_z="20" cone_freedom="20"/>
+	    <param damping="1" spring_constant="1000" min_restitution="0"/>
+	  </constraint>
+	  <constraint name="chain_08" enabled="true" type="ragdoll">
+	    <param body_a="dynamic_body_03" body_b="dynamic_body_08"/>
+	    <param pivot="position:a_vest_8"/>
+	    <param twist_axis="yaxis:a_vest_8" twist_min="0" twist_max="35" twist_freedom="20"/>
+	    <param plane_axis="xaxis:a_vest_8"/>
+	    <param cone_y="20" cone_z="20" cone_freedom="20"/>
+	    <param damping="1" spring_constant="1000" min_restitution="0"/>
+	  </constraint>
+	</constraints>
+	<decal_surfaces default_material="steel_no_decal">
+	</decal_surfaces>
+
+	<graphics>
+		<graphic_group name="g_vest_group_01" enabled="true" culling_object="co_box_01">
+			<object name="g_vest_back" enabled="true" />
+		</graphic_group>
+		<graphic_group name="g_vest_group_02" enabled="true" culling_object="co_box_02">
+			<object name="g_vest_front" enabled="true" />
+		</graphic_group>
+	</graphics>
+	
+</dynamic_object>
