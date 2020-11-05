@@ -10,6 +10,9 @@
 			<asset name="grenade_crate"/>
 			<asset name="bodybags_bag"/>
 		</assets>
+		<hooks directory="hooks">
+			<hook file="groupaitweakdata.lua" source_file="lib/tweak_data/groupaitweakdata"/>
+		</hooks>
 		<include directory="levels/modders_devmap">
 			<file file="world.world" type="binary"/>
 			<file file="continents.continents" type="binary"/>
