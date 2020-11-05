@@ -1,4 +1,4 @@
-<table name="Enemy Spawner 3">
+<table name="enemy_spawner">
 	<Localization default="english.txt" directory="loc">
 		<loc file="english.txt" language="english"/>
 	</Localization>
