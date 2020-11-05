@@ -1,0 +1,58 @@
+<table directory="assets">
+	<add path="units/test/jocke/plane_black_temp" type="unit">
+		<material_config path="units/test/jocke/plane_black_temp" unload="true"/>
+		<object path="units/test/jocke/plane_black_temp" unload="true"/>
+		<unit path="units/test/jocke/plane_black_temp" unload="true"/>
+	</add>
+	<add path="units/test/jocke/oneplanetorulethemall" type="unit">
+		<material_config path="units/test/jocke/simple_temp" unload="true"/>
+		<object path="units/test/jocke/oneplanetorulethemall" unload="true"/>
+		<unit path="units/test/jocke/oneplanetorulethemall" unload="true"/>
+	</add>
+	<add path="units/dev_tools/editable_text_short/editable_text_short" type="unit">
+		<material_config path="units/dev_tools/editable_text_short/editable_text_short" unload="true"/>
+		<object path="units/dev_tools/editable_text_short/editable_text_short" unload="true"/>
+		<unit path="units/dev_tools/editable_text_short/editable_text_short" unload="true"/>
+	</add>
+	<add path="units/dev_tools/editable_text_long/editable_text_long" type="unit">
+		<material_config path="units/dev_tools/editable_text_long/editable_text_long" unload="true"/>
+		<object path="units/dev_tools/editable_text_long/editable_text_long" unload="true"/>
+		<unit path="units/dev_tools/editable_text_long/editable_text_long" unload="true"/>
+	</add>
+	<add path="units/payday2/architecture/mkp/mkp_ext_wall_4m_a" type="unit">
+		<material_config path="units/payday2/architecture/mkp/mkp" unload="true"/>
+		<object path="units/payday2/architecture/mkp/mkp_ext_wall_4m_a" unload="true"/>
+		<unit path="units/payday2/architecture/mkp/mkp_ext_wall_4m_a" unload="true"/>
+	</add>
+	<add path="units/payday2/architecture/mkp/mkp_ext_wall_2m_a" type="unit">
+		<material_config path="units/payday2/architecture/mkp/mkp" unload="true"/>
+		<object path="units/payday2/architecture/mkp/mkp_ext_wall_2m_a" unload="true"/>
+		<unit path="units/payday2/architecture/mkp/mkp_ext_wall_2m_a" unload="true"/>
+	</add>
+	<add path="units/payday2/architecture/mkp/mkp_ext_wall_1m_a" type="unit">
+		<material_config path="units/payday2/architecture/mkp/mkp" unload="true"/>
+		<object path="units/payday2/architecture/mkp/mkp_ext_wall_1m_a" unload="true"/>
+		<unit path="units/payday2/architecture/mkp/mkp_ext_wall_1m_a" unload="true"/>
+	</add>
+	<add path="units/payday2/architecture/mkp/mkp_int_wall_2m_a" type="unit">
+		<material_config path="units/payday2/architecture/mkp/mkp" unload="true"/>
+		<object path="units/payday2/architecture/mkp/mkp_int_wall_2m_a" unload="true"/>
+		<unit path="units/payday2/architecture/mkp/mkp_int_wall_2m_a" unload="true"/>
+	</add>
+	<add path="units/payday2/architecture/mkp/mkp_int_wall_4m_a" type="unit">
+		<material_config path="units/payday2/architecture/mkp/mkp" unload="true"/>
+		<object path="units/payday2/architecture/mkp/mkp_int_wall_4m_a" unload="true"/>
+		<unit path="units/payday2/architecture/mkp/mkp_int_wall_4m_a" unload="true"/>
+	</add>
+	<add path="units/payday2/architecture/mkp/mkp_int_wall_1m_a" type="unit">
+		<material_config path="units/payday2/architecture/mkp/mkp" unload="true"/>
+		<object path="units/payday2/architecture/mkp/mkp_int_wall_1m_a" unload="true"/>
+		<unit path="units/payday2/architecture/mkp/mkp_int_wall_1m_a" unload="true"/>
+	</add>
+	<add path="units/pd2_dlc_arena/props/are_prop_security_button/are_prop_security_button" type="unit">
+		<unit path="units/pd2_dlc_arena/props/are_prop_security_button/are_prop_security_button" unload="true"/>
+		<object path="units/pd2_dlc_arena/props/are_prop_security_button/are_prop_security_button" unload="true"/>
+		<material_config path="units/pd2_dlc_arena/props/are_prop_security_button/are_prop_security_button" unload="true"/>
+		<sequence_manager path="units/pd2_dlc_arena/props/are_prop_security_button/are_prop_security_button" unload="true"/>
+	</add>
+</table>
