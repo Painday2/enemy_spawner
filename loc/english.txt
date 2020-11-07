@@ -1,6 +1,6 @@
 {
-	"heist_modders_devmap_name":"Enemy Spawner",
-	"heist_modders_devmap_brief":"Spawn enemies to test out mods and take fancy screenshots without being shot at. \nCreated by Zdann.",
-	"heist_modders_devmap_brief":"Spawn enemies to test out mods and take fancy screenshots without being shot at. \nCreated by Zdann.",
-	"heist_modders_devmap_name":"Enemy Spawner"
+	"heist_modders_devmap_name":"Proving Grounds",
+	"heist_modders_devmap_brief":"Spawn enemies to test out mods, take fancy screenshots without being shot at, and acid test new builds. \nCreated by VxWolf, Lawsfercapcake and Zdann.",
+	"heist_modders_devmap_brief":"Spawn enemies to test out mods, take fancy screenshots without being shot at, and acid test new builds. \nCreated by VxWolf, Lawsfercapcake and Zdann.",
+	"heist_modders_devmap_name":"Proving Grounds"
 }
