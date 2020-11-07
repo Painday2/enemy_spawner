@@ -1,0 +1,59 @@
+<dynamic_object>
+	<diesel materials="units/pd2_dlc_jerry/airplane/jry_int_plane_cargobay_wall" orientation_object="rp_jry_int_plane_front" />
+	<bodies>
+		<body name="body_static" enabled="true" template="static">
+			<object name="rp_jry_int_plane_front" />
+			<object name="c_box_01" collision_type="box" padding="-2.5" />
+			<object name="c_box_02" collision_type="box" padding="-2.5" />
+			<object name="c_box_03" collision_type="box" padding="-2.5" />
+			<object name="c_box_04" collision_type="box" padding="-2.5" />
+			<object name="c_box_05" collision_type="box" padding="-2.5" />
+			<object name="c_box_06" collision_type="box" padding="-2.5" />
+			<object name="c_box_07" collision_type="box" padding="-2.5" />
+			<object name="c_box_08" collision_type="box" padding="-2.5" />
+			<object name="c_box_09" collision_type="box" padding="-2.5" />
+			<object name="c_box_10" collision_type="box" padding="-2.5" />
+			<object name="c_box_11" collision_type="box" padding="-2.5" />
+			<object name="c_box_12" collision_type="box" padding="-2.5" />
+			<object name="c_box_13" collision_type="box" padding="-2.5" />
+			<object name="c_box_14" collision_type="box" padding="-2.5" />
+			<object name="c_box_15" collision_type="box" padding="-2.5" />
+			<object name="c_box_16" collision_type="box" padding="-2.5" />
+			<object name="c_box_17" collision_type="box" padding="-2.5" />
+			<object name="c_box_18" collision_type="box" padding="-2.5" />
+			<object name="c_box_19" collision_type="box" padding="-2.5" />
+			<object name="c_box_20" collision_type="box" padding="-2.5" />
+			<object name="c_box_21" collision_type="box" padding="-2.5" />
+			<object name="c_box_22" collision_type="box" padding="-2.5" />
+			<object name="c_box_23" collision_type="box" padding="-2.5" />
+			<object name="c_box_24" collision_type="box" padding="-2.5" />
+			<object name="c_box_25" collision_type="box" padding="-2.5" />
+			<object name="c_box_26" collision_type="box" padding="-2.5" />
+			<object name="c_box_27" collision_type="box" padding="-2.5" />
+			<object name="c_box_28" collision_type="box" padding="-2.5" />
+		</body>
+	</bodies>
+	<decal_surfaces default_material="cloth">
+		<decal_mesh name="dm_cloth" enabled="true" material="cloth" />
+		<decal_mesh name="dm_metal" enabled="true" material="metal" />
+		<decal_mesh name="dm_plastic" enabled="true" material="plastic" />
+	</decal_surfaces>
+	<graphics>
+		<lod_object name="lod_g_net">
+			<object name="g_net_lod0" enabled="true" max_distance="5000" />
+			<object name="g_net_lod1" enabled="true" max_distance="10000" />
+			<object name="g_net_lod2" enabled="true" />
+		</lod_object>
+		<lod_object name="lod_g_planefront">
+			<object name="g_planefront_lod0" enabled="true" max_distance="5000" />
+			<object name="g_planefront_lod1" enabled="true" max_distance="10000" />
+			<object name="g_planefront_lod2" enabled="true" />
+		</lod_object>
+		<lod_object name="lod_g_stair">
+			<object name="g_stair_lod0" enabled="true" max_distance="5000" />
+			<object name="g_stair_lod1" enabled="true" max_distance="10000" />
+			<object name="g_stair_lod2" enabled="true" />
+		</lod_object>
+		<object name="s_s" enabled="true" shadow_caster="true" />
+	</graphics>
+</dynamic_object>

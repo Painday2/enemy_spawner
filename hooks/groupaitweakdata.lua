@@ -390,7 +390,7 @@ local groups = {
 		"units/pd2_dlc_bph/characters/ene_murkywater_heavy_g36/ene_murkywater_heavy_g36",
 		"units/pd2_dlc_bex/characters/ene_swat_heavy_policia_federale_fbi_g36/ene_swat_heavy_policia_federale_fbi_g36"
 	},
-	},
+
 	FBI_heavy_G36_w = {
 		"units/payday2/characters/ene_swat_heavy_1/ene_swat_heavy_1",
 		"units/payday2/characters/ene_swat_heavy_r870/ene_swat_heavy_r870",
