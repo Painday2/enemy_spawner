@@ -12,6 +12,10 @@
 		</assets>
 		<hooks directory="hooks">
 			<hook file="groupaitweakdata.lua" source_file="lib/tweak_data/groupaitweakdata"/>
+			<hook file="achievmentmanager.lua" source_file="lib/managers/achievmentmanager"/>
+			<hook file="customsafehousemanager.lua" source_file="lib/managers/customsafehousemanager"/>
+			<hook file="challengemanager.lua" source_file="lib/managers/challengemanager"/>
+			<hook file="networkaccountsteam.lua" source_file="lib/network/matchmaking/networkaccountsteam"/>
 		</hooks>
 		<include directory="levels/modders_devmap">
 			<file file="world.world" type="binary"/>
@@ -37,6 +41,7 @@
 			<value_node value="packages/job_bex"/>
 			<value_node value="packages/narr_hvh"/>
 			<value_node value="levels/instances/unique/brb/civ_intro_spawner/world/world"/>
+			<value_node value="levels/narratives/vlad/peta/stage2/collision/collision"/>
 		</packages>
 		<script_data_mods directory="scriptdata">
 			<mod replacement="objectives.objective" replacement_type="custom_xml" target_ext="objective" target_path="gamedata/objectives">

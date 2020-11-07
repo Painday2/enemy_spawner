@@ -188,9 +188,85 @@
 		<unit path="units/pd2_dlc_chill/props/chl_prop_timer_large/chl_prop_timer_large" unload="true"/>
 	</add>
 	<add path="units/payday2/props/stn_prop_armory_shelf_ammo/stn_prop_armory_shelf_ammo" type="unit">
-		<unit path="units/payday2/props/stn_prop_armory_shelf_ammo/stn_prop_armory_shelf_ammo" unload="true"/>
-		<object path="units/payday2/props/stn_prop_armory_shelf_ammo/stn_prop_armory_shelf_ammo" unload="true"/>
 		<material_config path="units/payday2/props/stn_prop_armory_shelf_ammo/stn_prop_armory_shelf_ammo" unload="true"/>
+		<object path="units/payday2/props/stn_prop_armory_shelf_ammo/stn_prop_armory_shelf_ammo" unload="true"/>
 		<sequence_manager path="units/payday2/props/stn_prop_armory_shelf_ammo/stn_prop_armory_shelf_ammo" unload="true"/>
+		<unit path="units/payday2/props/stn_prop_armory_shelf_ammo/stn_prop_armory_shelf_ammo" unload="true"/>
+	</add>
+	<add path="units/pd2_dlc_born/vehicles/fps_vehicle_bike_1/fps_vehicle_bike_1" type="unit">
+		<unit path="units/pd2_dlc_born/vehicles/fps_vehicle_bike_1/fps_vehicle_bike_1" unload="true"/>
+		<object path="units/pd2_dlc_born/vehicles/fps_vehicle_bike_1/fps_vehicle_bike_1" unload="true"/>
+		<material_config path="units/pd2_dlc_born/vehicles/fps_vehicle_bike_1/thrd_vehicle_bike_1" unload="true"/>
+		<sequence_manager path="units/pd2_dlc_born/vehicles/fps_vehicle_bike_1/fps_vehicle_bike_1" unload="true"/>
+		<effect load="true" path="effects/payday2/particles/vehicle/vehicle_damage_small_smoke" unload="true"/>
+		<effect load="true" path="effects/payday2/particles/vehicle/vehicle_damage_big_smoke" unload="true"/>
+		<bnk path="soundbanks/regular_car_sfx" unload="true"/>
+		<bnk path="soundbanks/car_mc_harley" unload="true"/>
+		<unit path="units/payday2/pickups/gen_pku_lootbag/gen_pku_lootbag" unload="true"/>
+		<object path="units/payday2/pickups/gen_pku_lootbag/gen_pku_lootbag" unload="true"/>
+		<material_config path="units/payday2/pickups/gen_pku_lootbag/gen_pku_lootbag" unload="true"/>
+		<sequence_manager path="units/payday2/pickups/gen_pku_lootbag/gen_pku_lootbag" unload="true"/>
+	</add>
+	<add path="units/pd2_dlc_cage/vehicles/fps_vehicle_falcogini_1/fps_vehicle_falcogini_1" type="unit">
+		<unit path="units/pd2_dlc_cage/vehicles/fps_vehicle_falcogini_1/fps_vehicle_falcogini_1" unload="true"/>
+		<object path="units/pd2_dlc_cage/vehicles/fps_vehicle_falcogini_1/fps_vehicle_falcogini_1" unload="true"/>
+		<material_config path="units/pd2_dlc_cage/vehicles/fps_vehicle_falcogini_1/fps_vehicle_falcogini_1_red" unload="true"/>
+		<sequence_manager path="units/pd2_dlc_cage/vehicles/fps_vehicle_falcogini_1/fps_vehicle_falcogini_1" unload="true"/>
+		<effect load="true" path="effects/payday2/particles/vehicle/vehicle_damage_small_smoke" unload="true"/>
+		<effect load="true" path="effects/payday2/particles/vehicle/vehicle_damage_big_smoke" unload="true"/>
+		<bnk path="soundbanks/regular_car_sfx" unload="true"/>
+		<bnk path="soundbanks/car_falcogini" unload="true"/>
+		<unit path="units/payday2/pickups/gen_pku_lootbag/gen_pku_lootbag" unload="true"/>
+		<object path="units/payday2/pickups/gen_pku_lootbag/gen_pku_lootbag" unload="true"/>
+		<material_config path="units/payday2/pickups/gen_pku_lootbag/gen_pku_lootbag" unload="true"/>
+		<sequence_manager path="units/payday2/pickups/gen_pku_lootbag/gen_pku_lootbag" unload="true"/>
+	</add>
+	<add path="units/pd2_dlc_jerry/vehicles/fps_vehicle_boat_rib_1/fps_vehicle_boat_rib_1" type="unit">
+		<effect load="true" path="effects/payday2/particles/vehicle/vehicle_damage_small_smoke" unload="true"/>
+		<effect load="true" path="effects/payday2/particles/vehicle/vehicle_damage_big_smoke" unload="true"/>
+		<effect load="true" path="effects/payday2/particles/water/water_speed_splash_rib_boat" unload="true"/>
+		<effect load="true" path="effects/payday2/particles/water/water_splash_rib_boat" unload="true"/>
+		<bnk path="soundbanks/regular_car_sfx" unload="true"/>
+		<bnk path="soundbanks/car_rubber_boat" unload="true"/>
+		<material_config path="units/pd2_dlc_jerry/vehicles/fps_vehicle_boat_rib_1/fps_vehicle_boat_rib_1" unload="true"/>
+		<object path="units/pd2_dlc_jerry/vehicles/fps_vehicle_boat_rib_1/fps_vehicle_boat_rib_1" unload="true"/>
+		<sequence_manager path="units/pd2_dlc_jerry/vehicles/fps_vehicle_boat_rib_1/fps_vehicle_boat_rib_1" unload="true"/>
+		<unit path="units/pd2_dlc_jerry/vehicles/fps_vehicle_boat_rib_1/fps_vehicle_boat_rib_1" unload="true"/>
+	</add>
+	<add path="units/pd2_dlc_jolly/vehicles/fps_vehicle_box_truck_1/fps_vehicle_box_truck_1" type="unit">
+		<effect load="true" path="effects/payday2/particles/vehicle/vehicle_damage_small_smoke" unload="true"/>
+		<effect load="true" path="effects/payday2/particles/vehicle/vehicle_damage_big_smoke" unload="true"/>
+		<bnk path="soundbanks/regular_car_sfx" unload="true"/>
+		<bnk path="soundbanks/car_truck" unload="true"/>
+		<bnk path="soundbanks/regular_sfx" unload="true"/>
+		<material_config path="units/pd2_dlc_jolly/vehicles/fps_vehicle_box_truck_1/fps_vehicle_box_truck_1" unload="true"/>
+		<object path="units/pd2_dlc_jolly/vehicles/fps_vehicle_box_truck_1/fps_vehicle_box_truck_1" unload="true"/>
+		<sequence_manager path="units/pd2_dlc_jolly/vehicles/fps_vehicle_box_truck_1/fps_vehicle_box_truck_1" unload="true"/>
+		<unit path="units/pd2_dlc_jolly/vehicles/fps_vehicle_box_truck_1/fps_vehicle_box_truck_1" unload="true"/>
+	</add>
+	<add path="units/pd2_dlc_shoutout_raid/vehicles/fps_vehicle_muscle_1/fps_vehicle_muscle_1" type="unit">
+		<effect load="true" path="effects/payday2/particles/vehicle/vehicle_damage_small_smoke" unload="true"/>
+		<effect load="true" path="effects/payday2/particles/vehicle/vehicle_damage_big_smoke" unload="true"/>
+		<bnk path="soundbanks/regular_car_sfx" unload="true"/>
+		<bnk path="soundbanks/car_muscle" unload="true"/>
+		<bnk path="soundbanks/regular_sfx" unload="true"/>
+		<material_config path="units/pd2_dlc_shoutout_raid/vehicles/fps_vehicle_muscle_1/fps_vehicle_muscle_1" unload="true"/>
+		<object path="units/pd2_dlc_shoutout_raid/vehicles/fps_vehicle_muscle_1/fps_vehicle_muscle_1" unload="true"/>
+		<sequence_manager path="units/pd2_dlc_shoutout_raid/vehicles/fps_vehicle_muscle_1/fps_vehicle_muscle_1" unload="true"/>
+		<unit path="units/pd2_dlc_shoutout_raid/vehicles/fps_vehicle_muscle_1/fps_vehicle_muscle_1" unload="true"/>
+	</add>
+	<add path="units/pd2_dlc_shoutout_raid/vehicles/fps_vehicle_forklift_1/fps_vehicle_forklift_1" type="unit">
+		<unit path="units/pd2_dlc_shoutout_raid/vehicles/fps_vehicle_forklift_1/fps_vehicle_forklift_1" unload="true"/>
+		<object path="units/pd2_dlc_shoutout_raid/vehicles/fps_vehicle_forklift_1/fps_vehicle_forklift_1" unload="true"/>
+		<material_config path="units/pd2_dlc_shoutout_raid/vehicles/fps_vehicle_forklift_1/fps_vehicle_forklift_1" unload="true"/>
+		<sequence_manager path="units/pd2_dlc_shoutout_raid/vehicles/fps_vehicle_forklift_1/fps_vehicle_forklift_1" unload="true"/>
+		<effect load="true" path="effects/payday2/particles/vehicle/vehicle_damage_small_smoke" unload="true"/>
+		<effect load="true" path="effects/payday2/particles/vehicle/vehicle_damage_big_smoke" unload="true"/>
+		<bnk path="soundbanks/car_forklift" unload="true"/>
+		<bnk path="soundbanks/regular_car_sfx" unload="true"/>
+		<unit path="units/payday2/pickups/gen_pku_lootbag/gen_pku_lootbag" unload="true"/>
+		<object path="units/payday2/pickups/gen_pku_lootbag/gen_pku_lootbag" unload="true"/>
+		<material_config path="units/payday2/pickups/gen_pku_lootbag/gen_pku_lootbag" unload="true"/>
+		<sequence_manager path="units/payday2/pickups/gen_pku_lootbag/gen_pku_lootbag" unload="true"/>
 	</add>
 </table>
