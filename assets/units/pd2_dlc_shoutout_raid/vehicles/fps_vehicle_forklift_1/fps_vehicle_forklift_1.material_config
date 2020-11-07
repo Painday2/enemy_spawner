@@ -1,0 +1,58 @@
+<materials version="3">
+    <material name="shadow_caster" render_template="shadow_caster_only" version="2"/>
+    <material name="mtr_decals" render_template="decal:DIFFUSE_TEXTURE" version="2">
+        <diffuse_texture file="units/payday2/vehicles/ind_vehicle_truck_forklift/ind_vehicle_truck_forklift_decal_df"/>
+    </material>
+    <material render_template="generic:DIFFUSE_TEXTURE:NORMALMAP" name="mtr_forklift" version="2">
+        <diffuse_texture file="units/payday2/vehicles/ind_vehicle_truck_forklift/ind_vehicle_truck_forklift_df"/>
+        <bump_normal_texture file="units/payday2/vehicles/ind_vehicle_truck_forklift/ind_vehicle_truck_forklift_nm"/>
+    </material>
+    <material render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:NORMALMAP" name="mtr_interior" version="2">
+        <diffuse_texture file="units/pd2_dlc_shoutout_raid/vehicles/fps_vehicle_forklift_1/interior_df"/>
+        <bump_normal_texture file="units/pd2_dlc_shoutout_raid/vehicles/fps_vehicle_forklift_1/interior_nm"/>
+        <reflection_texture type="cube" global_texture="current_global_texture"/>
+    </material>
+    <material name="mat_fps_steering_wheel" render_template="generic:DEPTH_SCALING:DIFFUSE_TEXTURE:NORMALMAP" version="2">
+        <diffuse_texture file="units/pd2_dlc_shoutout_raid/vehicles/fps_vehicle_forklift_1/interior_df"/>
+        <bump_normal_texture file="units/pd2_dlc_shoutout_raid/vehicles/fps_vehicle_forklift_1/interior_nm"/>
+    </material>
+    <material name="hud_brackets" render_template="effect:DIFFUSE0_TEXTURE:VIEW_ANGLE_FALLOFF_OP" version="2">
+        <diffuse_texture file="units/gui/gui_brackets_df"/>
+        <variable value="identity" type="scalar" name="intensity"/>
+        <variable value="1" type="scalar" name="falloff_exp"/>
+    </material>
+    <material render_template="generic:ALPHA_MASKED:CONTOUR:DIFFUSE_TEXTURE:OPACITY_TEXTURE" unique="true" name="mat_contour" version="2">
+        <diffuse_texture file="units/white_df"/>
+        <variable value="0 1 0" type="vector3" name="contour_color"/>
+        <variable value="1" type="scalar" name="contour_opacity"/>
+        <opacity_texture file="units/transparent_op"/>
+    </material>
+    <material name="mat_indicator_driver" render_template="effect:DIFFUSE0_TEXTURE:VIEW_ANGLE_FALLOFF_OP" version="2">
+        <diffuse_texture file="units/gui/gui_drive_driver_df"/>
+        <variable value="identity" type="scalar" name="intensity"/>
+        <variable value="1" type="scalar" name="falloff_exp"/>
+    </material>
+    <material name="mat_indicator_passenger" render_template="effect:DIFFUSE0_TEXTURE:VIEW_ANGLE_FALLOFF_OP" version="2">
+        <diffuse_texture file="units/gui/gui_drive_passenger_df"/>
+        <variable value="identity" type="scalar" name="intensity"/>
+        <variable value="1" type="scalar" name="falloff_exp"/>
+    </material>
+    <material name="mat_indicator_trunk" render_template="effect:DIFFUSE0_TEXTURE:VIEW_ANGLE_FALLOFF_OP" version="2">
+        <diffuse_texture file="units/gui/gui_drive_trunk_df"/>
+        <variable value="identity" type="scalar" name="intensity"/>
+        <variable value="1" type="scalar" name="falloff_exp"/>
+    </material>
+    <material name="mat_indicator_repair" render_template="effect:DIFFUSE0_TEXTURE:VIEW_ANGLE_FALLOFF_OP" version="2">
+        <diffuse_texture file="units/gui/gui_drive_repair_df"/>
+        <variable value="identity" type="scalar" name="intensity"/>
+        <variable value="1" type="scalar" name="falloff_exp"/>
+    </material>
+    <material name="mat_bag_explosive" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP" version="2">
+        <diffuse_texture file="units/pd2_dlc1/pickups/gen_pku_explosivesbag/gen_pku_explosivesbag_df"/>
+        <bump_normal_texture file="units/payday2/pickups/gen_pku_lootbag/gen_pku_lootbag_nm"/>
+    </material>
+    <material name="mat_bag_loot" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP" version="2">
+        <diffuse_texture file="units/payday2/pickups/gen_pku_lootbag/gen_pku_lootbag_df"/>
+        <bump_normal_texture file="units/payday2/pickups/gen_pku_lootbag/gen_pku_lootbag_nm"/>
+    </material>
+</materials>
