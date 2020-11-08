@@ -42,6 +42,8 @@
 			<value_node value="packages/narr_hvh"/>
 			<value_node value="levels/instances/unique/brb/civ_intro_spawner/world/world"/>
 			<value_node value="levels/narratives/vlad/peta/stage2/collision/collision"/>
+			<value_node value="levels/instances/unique/chill/music_player/world/world"/>
+			<value_node value="levels/instances/unique/hvh/hvh_chance/world/world"/>
 		</packages>
 		<script_data_mods directory="scriptdata">
 			<mod replacement="objectives.objective" replacement_type="custom_xml" target_ext="objective" target_path="gamedata/objectives">

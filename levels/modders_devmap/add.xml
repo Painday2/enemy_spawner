@@ -4,11 +4,6 @@
 		<object path="units/test/jocke/plane_black_temp" unload="true"/>
 		<unit path="units/test/jocke/plane_black_temp" unload="true"/>
 	</add>
-	<add path="units/test/jocke/oneplanetorulethemall" type="unit">
-		<material_config path="units/test/jocke/simple_temp" unload="true"/>
-		<object path="units/test/jocke/oneplanetorulethemall" unload="true"/>
-		<unit path="units/test/jocke/oneplanetorulethemall" unload="true"/>
-	</add>
 	<add path="units/dev_tools/editable_text_short/editable_text_short" type="unit">
 		<material_config path="units/dev_tools/editable_text_short/editable_text_short" unload="true"/>
 		<object path="units/dev_tools/editable_text_short/editable_text_short" unload="true"/>
@@ -29,11 +24,6 @@
 		<object path="units/payday2/architecture/mkp/mkp_ext_wall_2m_a" unload="true"/>
 		<unit path="units/payday2/architecture/mkp/mkp_ext_wall_2m_a" unload="true"/>
 	</add>
-	<add path="units/payday2/architecture/mkp/mkp_ext_wall_1m_a" type="unit">
-		<material_config path="units/payday2/architecture/mkp/mkp" unload="true"/>
-		<object path="units/payday2/architecture/mkp/mkp_ext_wall_1m_a" unload="true"/>
-		<unit path="units/payday2/architecture/mkp/mkp_ext_wall_1m_a" unload="true"/>
-	</add>
 	<add path="units/payday2/architecture/mkp/mkp_int_wall_2m_a" type="unit">
 		<material_config path="units/payday2/architecture/mkp/mkp" unload="true"/>
 		<object path="units/payday2/architecture/mkp/mkp_int_wall_2m_a" unload="true"/>
@@ -43,11 +33,6 @@
 		<material_config path="units/payday2/architecture/mkp/mkp" unload="true"/>
 		<object path="units/payday2/architecture/mkp/mkp_int_wall_4m_a" unload="true"/>
 		<unit path="units/payday2/architecture/mkp/mkp_int_wall_4m_a" unload="true"/>
-	</add>
-	<add path="units/payday2/architecture/mkp/mkp_int_wall_1m_a" type="unit">
-		<material_config path="units/payday2/architecture/mkp/mkp" unload="true"/>
-		<object path="units/payday2/architecture/mkp/mkp_int_wall_1m_a" unload="true"/>
-		<unit path="units/payday2/architecture/mkp/mkp_int_wall_1m_a" unload="true"/>
 	</add>
 	<add path="units/pd2_dlc_arena/props/are_prop_security_button/are_prop_security_button" type="unit">
 		<material_config path="units/pd2_dlc_arena/props/are_prop_security_button/are_prop_security_button" unload="true"/>
@@ -115,9 +100,6 @@
 		<material_config path="core/material_configs/hub_elements" unload="true"/>
 		<object path="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_2x3m" unload="true"/>
 		<unit path="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_2x3m" unload="true"/>
-	</add>
-	<add path="units/pd2_dlc_bph/characters/ene_murkywater_sniper/ene_murkywater_sniper" type="unit">
-		<unit path="units/pd2_dlc_bph/characters/ene_murkywater_sniper/ene_murkywater_sniper" unload="true"/>
 	</add>
 	<add path="units/dev_tools/level_tools/dev_nav_blocker/dev_nav_blocker_1x1m" type="unit">
 		<material_config path="core/material_configs/hub_elements" unload="true"/>
