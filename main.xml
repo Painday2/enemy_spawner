@@ -44,6 +44,7 @@
 			<value_node value="levels/narratives/vlad/peta/stage2/collision/collision"/>
 			<value_node value="levels/instances/unique/chill/music_player/world/world"/>
 			<value_node value="levels/instances/unique/hvh/hvh_chance/world/world"/>
+			<value_node value="levels/instances/unique/born/born_truck/world/world"/>
 		</packages>
 		<script_data_mods directory="scriptdata">
 			<mod replacement="objectives.objective" replacement_type="custom_xml" target_ext="objective" target_path="gamedata/objectives">
