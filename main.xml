@@ -1,21 +1,39 @@
 <table name="enemy_spawner">
+	<Achievements icon="guis/textures/prov_grnd_package" id="prov_grnd_package">
+		<achievement icon="guis/textures/prov_grnd_cookie" id="prov_grnd_cookie" rank="3" reward_amount="15" reward_type="cc"/>
+		<achievement icon="guis/textures/prov_grnd_range" id="prov_grnd_range" rank="3" reward_amount="15" reward_type="cc"/>
+		<achievement amount="50" icon="guis/textures/prov_grnd_50k" id="prov_grnd_50k" rank="1" reward_amount="3" reward_type="cc"/>
+		<achievement amount="100" icon="guis/textures/prov_grnd_100k" id="prov_grnd_100k" rank="2" reward_amount="6" reward_type="cc"/>
+		<achievement amount="200" icon="guis/textures/prov_grnd_200k" id="prov_grnd_200k" rank="3" reward_amount="15" reward_type="cc"/>
+		<achievement amount="300" icon="guis/textures/prov_grnd_300k" id="prov_grnd_300k" rank="3" reward_amount="30" reward_type="cc"/>
+		<achievement amount="400" icon="guis/textures/prov_grnd_400k" id="prov_grnd_400k" rank="4" reward_amount="30" reward_type="cc"/>
+		<achievement amount="500" icon="guis/textures/prov_grnd_500k" id="prov_grnd_500k" rank="4" reward_amount="60" reward_type="cc"/>
+	</Achievements>
+	<AddFiles directory="assets">
+		<texture load="true" path="guis/textures/prov_grnd_500k"/>
+		<texture load="true" path="guis/textures/prov_grnd_400k"/>
+		<texture load="true" path="guis/textures/prov_grnd_300k"/>
+		<texture load="true" path="guis/textures/prov_grnd_200k"/>
+		<texture load="true" path="guis/textures/prov_grnd_100k"/>
+		<texture load="true" path="guis/textures/prov_grnd_50k"/>
+		<texture load="true" path="guis/textures/prov_grnd_cookie"/>
+		<texture load="true" path="guis/textures/prov_grnd_range"/>
+		<texture load="true" path="guis/textures/prov_grnd_package"/>
+	</AddFiles>
 	<Localization default="english.txt" directory="loc">
 		<loc file="english.txt" language="english"/>
 	</Localization>
 	<level ai_group_type="America" briefing_dialog="" id="modders_devmap" intro_event="" max_bags="0" orig_id="modders_devmap" player_style="generic" team_ai_off="true">
 		<add file="levels/modders_devmap/add.xml"/>
-		<assets>
-			<asset name="ammo_bag"/>
-			<asset name="health_bag"/>
-			<asset name="grenade_crate"/>
-			<asset name="bodybags_bag"/>
-		</assets>
 		<hooks directory="hooks">
 			<hook file="groupaitweakdata.lua" source_file="lib/tweak_data/groupaitweakdata"/>
 			<hook file="achievmentmanager.lua" source_file="lib/managers/achievmentmanager"/>
+			<hook file="achievementcontroller.lua" source_file="lib/managers/dialogmanager"/>
 			<hook file="customsafehousemanager.lua" source_file="lib/managers/customsafehousemanager"/>
 			<hook file="challengemanager.lua" source_file="lib/managers/challengemanager"/>
 			<hook file="networkaccountsteam.lua" source_file="lib/network/matchmaking/networkaccountsteam"/>
+			<hook file="missionmanager.lua" source_file="lib/managers/missionmanager"/>
+			<hook file="weapontweakdata.lua" source_file="lib/tweak_data/weapontweakdata"/>
 		</hooks>
 		<include directory="levels/modders_devmap">
 			<file file="world.world" type="binary"/>
