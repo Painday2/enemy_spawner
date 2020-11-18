@@ -24,7 +24,7 @@
 	"prov_grnd_500k_objective" : "Kill 500 Cops in the Proving Grounds.",
 	"prov_grnd_cookie_name" : "Robberpocalypse"
 	"prov_grnd_cookie_desc" : "",
-	"prov_grnd_cookie_objective" : "Complete the Cop Clicker Room. Unlocks the Tower Defence room.",
+	"prov_grnd_cookie_objective" : "Complete the Cop Clicker Room.",
 	"prov_grnd_range_name" : "High Noon"
 	"prov_grnd_range_desc" : "",
 	"prov_grnd_range_objective" : "Kill 50 cops in the proving range in 60 seconds."

@@ -19,6 +19,7 @@
 		<texture load="true" path="guis/textures/prov_grnd_cookie"/>
 		<texture load="true" path="guis/textures/prov_grnd_range"/>
 		<texture load="true" path="guis/textures/prov_grnd_package"/>
+		<texture load="true" path="guis/textures/icon_prov_grnd"/>
 	</AddFiles>
 	<Localization default="english.txt" directory="loc">
 		<loc file="english.txt" language="english"/>
@@ -33,7 +34,6 @@
 			<hook file="challengemanager.lua" source_file="lib/managers/challengemanager"/>
 			<hook file="networkaccountsteam.lua" source_file="lib/network/matchmaking/networkaccountsteam"/>
 			<hook file="missionmanager.lua" source_file="lib/managers/missionmanager"/>
-			<hook file="weapontweakdata.lua" source_file="lib/tweak_data/weapontweakdata"/>
 		</hooks>
 		<include directory="levels/modders_devmap">
 			<file file="world.world" type="binary"/>
@@ -70,7 +70,7 @@
 			</mod>
 		</script_data_mods>
 	</level>
-	<narrative contact="custom" id="modders_devmap">
+	<narrative contact="custom" icon="guis/textures/icon_prov_grnd" id="modders_devmap">
 		<chain>
 			<table level_id="modders_devmap" type="d" type_id="heist_type_assault"/>
 		</chain>
