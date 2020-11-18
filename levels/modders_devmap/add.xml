@@ -106,18 +106,6 @@
 		<object path="units/dev_tools/level_tools/dev_nav_blocker/dev_nav_blocker_1x1m" unload="true"/>
 		<unit path="units/dev_tools/level_tools/dev_nav_blocker/dev_nav_blocker_1x1m" unload="true"/>
 	</add>
-	<add path="units/pd2_dlc_bph/characters/ene_murkywater_sniper/ene_murkywater_sniper" type="unit">
-		<unit path="units/pd2_dlc_bph/characters/ene_murkywater_sniper/ene_murkywater_sniper" unload="true"/>
-		<unit path="units/pd2_dlc_bph/characters/ene_murkywater_sniper/ene_murkywater_sniper_husk" unload="true"/>
-		<texture path="units/pd2_dlc_bph/characters/ene_murkywater_sniper/material_head_nm" unload="true"/>
-		<texture path="units/pd2_dlc_bph/characters/ene_murkywater_sniper/material_head_df" unload="true"/>
-		<texture path="units/pd2_dlc_bph/characters/ene_murkywater_sniper/material_nm" unload="true"/>
-		<texture path="units/pd2_dlc_bph/characters/ene_murkywater_sniper/material_df" unload="true"/>
-		<cooked_physics path="units/pd2_dlc_bph/characters/ene_murkywater_sniper/ene_murkywater_sniper" unload="true"/>
-		<material_config path="units/pd2_dlc_bph/characters/ene_murkywater_sniper/ene_murkywater_sniper" unload="true"/>
-		<model path="units/pd2_dlc_bph/characters/ene_murkywater_sniper/ene_murkywater_sniper" unload="true"/>
-		<object path="units/pd2_dlc_bph/characters/ene_murkywater_sniper/ene_murkywater_sniper" unload="true"/>
-	</add>
 	<add path="units/pd2_dlc_jerry/airplane/jry_int_plane_cargobay_wall" type="unit">
 		<material_config path="units/pd2_dlc_jerry/airplane/jry_int_plane_cargobay_wall" unload="true"/>
 		<object path="units/pd2_dlc_jerry/airplane/jry_int_plane_cargobay_wall" unload="true"/>
