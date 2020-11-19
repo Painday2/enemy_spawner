@@ -1,4 +1,4 @@
-<table name="enemy_spawner">
+<table name="Proving Grounds">
 	<AssetUpdates id="29905" provider="modworkshop" use_local_dir="true" version="1"/>
 	<Achievements icon="guis/textures/prov_grnd_package" id="prov_grnd_package">
 		<achievement icon="guis/textures/prov_grnd_cookie" id="prov_grnd_cookie" rank="3" reward_amount="15" reward_type="cc"/>
