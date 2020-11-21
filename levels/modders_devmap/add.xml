@@ -1,9 +1,4 @@
 <table directory="assets">
-	<cooked_physics path="units/zdann/green_screen/green_screen"/>
-	<material_config path="units/zdann/green_screen/green_screen"/>
-	<model path="units/zdann/green_screen/green_screen"/>
-	<object path="units/zdann/green_screen/green_screen"/>
-	<unit path="units/zdann/green_screen/green_screen"/>
 	<texture load="true" path="units/zdann/green_screen/green_df"/>
 	<texture load="true" path="units/zdann/green_screen/green_nm"/>
 	<texture force="true" path="core/textures/lens_dirt"/>
@@ -247,4 +242,20 @@
 		<material_config path="units/payday2/pickups/gen_pku_lootbag/gen_pku_lootbag" unload="true"/>
 		<sequence_manager path="units/payday2/pickups/gen_pku_lootbag/gen_pku_lootbag" unload="true"/>
 	</add>
+	<add path="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_16x3m" type="unit">
+		<material_config path="core/material_configs/hub_elements" unload="true"/>
+		<object path="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_16x3m" unload="true"/>
+		<unit path="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_16x3m" unload="true"/>
+	</add>
+	<add path="units/dev_tools/level_tools/dev_ai_vis_blocker_8x8/dev_ai_vis_blocker_8x8" type="unit">
+		<unit path="units/dev_tools/level_tools/dev_ai_vis_blocker_8x8/dev_ai_vis_blocker_8x8" unload="true"/>
+		<object path="units/dev_tools/level_tools/dev_ai_vis_blocker_8x8/dev_ai_vis_blocker_8x8" unload="true"/>
+		<material_config path="core/material_configs/hub_elements" unload="true"/>
+		<sequence_manager path="units/dev_tools/level_tools/dev_ai_vis_blocker_2x2/dev_ai_vis_blocker_2x2" unload="true"/>
+	</add>
+	<cooked_physics path="units/zdann/green_screen/green_screen"/>
+	<material_config path="units/zdann/green_screen/green_screen"/>
+	<model path="units/zdann/green_screen/green_screen"/>
+	<object path="units/zdann/green_screen/green_screen"/>
+	<unit path="units/zdann/green_screen/green_screen"/>
 </table>
