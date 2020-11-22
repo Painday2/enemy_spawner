@@ -258,4 +258,7 @@
 	<model path="units/zdann/green_screen/green_screen"/>
 	<object path="units/zdann/green_screen/green_screen"/>
 	<unit path="units/zdann/green_screen/green_screen"/>
+	<model path="units/zdann/green_screen/green_screen_wide"/>
+	<object path="units/zdann/green_screen/green_screen_wide"/>
+	<unit path="units/zdann/green_screen/green_screen_wide"/>
 </table>
