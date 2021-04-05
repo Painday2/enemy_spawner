@@ -64,6 +64,7 @@
 			<value_node value="levels/instances/unique/hvh/hvh_chance/world/world"/>
 			<value_node value="levels/instances/unique/born/born_truck/world/world"/>
 			<value_node value="packages/narr_jerry1"/>
+			<value_node value="packages/sm_wish "/>
 		</packages>
 		<script_data_mods directory="scriptdata">
 			<mod replacement="objectives.objective" replacement_type="custom_xml" target_ext="objective" target_path="gamedata/objectives">

@@ -248,10 +248,10 @@
 		<unit path="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_16x3m" unload="true"/>
 	</add>
 	<add path="units/dev_tools/level_tools/dev_ai_vis_blocker_8x8/dev_ai_vis_blocker_8x8" type="unit">
-		<unit path="units/dev_tools/level_tools/dev_ai_vis_blocker_8x8/dev_ai_vis_blocker_8x8" unload="true"/>
-		<object path="units/dev_tools/level_tools/dev_ai_vis_blocker_8x8/dev_ai_vis_blocker_8x8" unload="true"/>
 		<material_config path="core/material_configs/hub_elements" unload="true"/>
+		<object path="units/dev_tools/level_tools/dev_ai_vis_blocker_8x8/dev_ai_vis_blocker_8x8" unload="true"/>
 		<sequence_manager path="units/dev_tools/level_tools/dev_ai_vis_blocker_2x2/dev_ai_vis_blocker_2x2" unload="true"/>
+		<unit path="units/dev_tools/level_tools/dev_ai_vis_blocker_8x8/dev_ai_vis_blocker_8x8" unload="true"/>
 	</add>
 	<cooked_physics path="units/zdann/green_screen/green_screen"/>
 	<material_config path="units/zdann/green_screen/green_screen"/>
@@ -261,4 +261,9 @@
 	<model path="units/zdann/green_screen/green_screen_wide"/>
 	<object path="units/zdann/green_screen/green_screen_wide"/>
 	<unit path="units/zdann/green_screen/green_screen_wide"/>
+	<add path="units/pd2_dlc_jerry/characters/npc_acc_parachute_1/npc_acc_parachute_1" type="unit">
+		<unit path="units/pd2_dlc_jerry/characters/npc_acc_parachute_1/npc_acc_parachute_1" unload="true"/>
+		<object path="units/pd2_dlc_jerry/characters/npc_acc_parachute_1/npc_acc_parachute_1" unload="true"/>
+		<material_config path="units/pd2_dlc_jerry/characters/npc_acc_parachute_1/npc_acc_parachute_1" unload="true"/>
+	</add>
 </table>
