@@ -36,20 +36,6 @@
 			<hook file="networkaccountsteam.lua" source_file="lib/network/matchmaking/networkaccountsteam"/>
 			<hook file="missionmanager.lua" source_file="lib/managers/missionmanager"/>
 		</hooks>
-		<include directory="levels/modders_devmap">
-			<file file="world.world" type="binary"/>
-			<file file="continents.continents" type="binary"/>
-			<file file="mission.mission" type="binary"/>
-			<file file="nav_manager_data.nav_data" type="binary"/>
-			<file file="world_sounds.world_sounds" type="binary"/>
-			<file file="world_cameras.world_cameras" type="binary"/>
-			<file file="editor_only/editor_only.continent" type="binary"/>
-			<file file="editor_only/editor_only.mission" type="binary"/>
-			<file file="world/world.continent" type="binary"/>
-			<file file="world/world.mission" type="binary"/>
-			<file file="cover_data.cover_data" type="binary"/>
-			<file file="environments/default.environment" type="custom_xml"/>
-		</include>
 		<outro_event>
 			<value_node value=""/>
 		</outro_event>
