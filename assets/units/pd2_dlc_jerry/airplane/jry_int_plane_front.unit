@@ -1,6 +1,0 @@
-<unit type="jry" slot="1">
-	<object file="units/pd2_dlc_jerry/airplane/jry_int_plane_front" />
-	<extensions>
-		<extension name="unit_data" class="ScriptUnitData" />
-	</extensions>
-</unit>

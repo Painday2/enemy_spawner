@@ -40,15 +40,9 @@
 			<value_node value=""/>
 		</outro_event>
 		<packages>
-			<value_node value="levels/instances/unique/sub_sewer_sidespawn/world/world"/>
 			<value_node value="packages/lvl_mad"/>
 			<value_node value="packages/job_bex"/>
 			<value_node value="packages/narr_hvh"/>
-			<value_node value="levels/instances/unique/brb/civ_intro_spawner/world/world"/>
-			<value_node value="levels/narratives/vlad/peta/stage2/collision/collision"/>
-			<value_node value="levels/instances/unique/chill/music_player/world/world"/>
-			<value_node value="levels/instances/unique/hvh/hvh_chance/world/world"/>
-			<value_node value="levels/instances/unique/born/born_truck/world/world"/>
 			<value_node value="packages/narr_jerry1"/>
 			<value_node value="packages/sm_wish"/>
 		</packages>
