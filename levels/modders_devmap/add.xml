@@ -1203,8 +1203,22 @@
 	</add>
 	<add from_db="true" path="environments/pd2_mcmansion_night/pd2_mcmansion_night" type="environment">
 		<environment path="environments/pd2_mcmansion_night/pd2_mcmansion_night"/>
-		<scene path="core/environments/skies/sky_2335_night_moon/sky_2335_night_moon"/>
 		<material_config path="core/environments/skies/sky_2335_night_moon/sky_2335_night_moon"/>
+		<scene path="core/environments/skies/sky_2335_night_moon/sky_2335_night_moon"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_ranc/vehicles/fps_vehicle_golfcart/fps_vehicle_golfcart" type="unit">
+		<unit path="units/pd2_dlc_ranc/vehicles/fps_vehicle_golfcart/fps_vehicle_golfcart"/>
+		<object path="units/pd2_dlc_ranc/vehicles/fps_vehicle_golfcart/fps_vehicle_golfcart"/>
+		<material_config path="units/pd2_dlc_ranc/vehicles/fps_vehicle_golfcart/fps_vehicle_golfcart"/>
+		<sequence_manager path="units/pd2_dlc_ranc/vehicles/fps_vehicle_golfcart/fps_vehicle_golfcart"/>
+		<effect load="true" path="effects/payday2/particles/vehicle/vehicle_damage_small_smoke"/>
+		<effect load="true" path="effects/payday2/particles/vehicle/vehicle_damage_big_smoke"/>
+		<bnk path="soundbanks/car_gc"/>
+		<bnk path="soundbanks/regular_car_sfx"/>
+		<unit path="units/payday2/pickups/gen_pku_lootbag/gen_pku_lootbag"/>
+		<object path="units/payday2/pickups/gen_pku_lootbag/gen_pku_lootbag"/>
+		<material_config path="units/payday2/pickups/gen_pku_lootbag/gen_pku_lootbag"/>
+		<sequence_manager path="units/payday2/pickups/gen_pku_lootbag/gen_pku_lootbag"/>
 	</add>
 	<cooked_physics path="units/zdann/green_screen/green_screen"/>
 	<material_config path="units/zdann/green_screen/green_screen"/>
