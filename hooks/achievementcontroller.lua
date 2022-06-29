@@ -3,16 +3,8 @@ CustomAchievementPackage:init("prov_grnd_package")
 end)
 
 local function CheckUnlocked(ach_id, package_id)
-            local config = CustomAchievementPackage:GetConfigOf(ach_id)
-
-            if type(config) == "table" then
-                local achievement = CustomAchievement:new(config, package_id)
-
-                if achievement:IsUnlocked() then
-                    return true
-                end
-            end
-        end
+    return true
+end
 
 
 
